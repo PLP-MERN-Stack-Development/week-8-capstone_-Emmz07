@@ -7,7 +7,7 @@ RentRoll is a full-stack property management application designed to help landlo
 🔗 [https://plp-final-project-rent-roll.vercel.app/](https://plp-final-project-rent-roll.vercel.app/)
 
 ### 🎥 Demo Video  
-📽️ [Watch the 5–10 min walkthrough here](https://your-demo-video-link.com) 
+
 
 ---
 

@@ -1,52 +1,125 @@
-# MERN Stack Capstone Project
+# RentRoll - Property Management Platform
 
-This assignment focuses on designing, developing, and deploying a comprehensive full-stack MERN application that showcases all the skills you've learned throughout the course.
+RentRoll is a full-stack property management application designed to help landlords and property managers efficiently manage properties, tenants, and payments. The project is divided into two main parts: a React-based frontend and a Node.js/Express backend with MongoDB.
 
-## Assignment Overview
 
-You will:
-1. Plan and design a full-stack MERN application
-2. Develop a robust backend with MongoDB, Express.js, and Node.js
-3. Create an interactive frontend with React.js
-4. Implement testing across the entire application
-5. Deploy the application to production
+### Application Link : https://plp-final-project-rent-roll.vercel.app/
+---
+
+## Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Environment Variables](#environment-variables)
+- [Scripts](#scripts)
+- [License](#license)
+
+---
+
+## Features
+- User authentication (JWT-based)
+- Property CRUD operations
+- Tenant management
+- Payment tracking
+- Dashboard with key metrics
+- Responsive UI with Tailwind CSS
+
+---
+
+## Tech Stack
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB (Mongoose ODM)
+- **Authentication:** JWT
+
+---
+
+## Project Structure
+```
+client/           # React frontend
+  src/
+    components/   # Reusable UI components
+    context/      # React context for global state
+    pages/        # Main app pages
+    services/     # API service layer
+  public/         # Static assets
+  ...
+
+server/           # Node.js backend
+  models/         # Mongoose models
+  routes/         # Express route handlers
+  middleware/     # Custom middleware (e.g., auth)
+  utils/          # Utility scripts (e.g., seed data)
+  ...
+```
+
+---
 
 ## Getting Started
 
-1. Accept the GitHub Classroom assignment
-2. Clone the repository to your local machine
-3. Follow the instructions in the `Week8-Assignment.md` file
-4. Plan, develop, and deploy your capstone project
-
-## Files Included
-
-- `Week8-Assignment.md`: Detailed assignment instructions
-
-## Requirements
-
-- Node.js (v18 or higher)
-- MongoDB (local installation or Atlas account)
+### Prerequisites
+- Node.js (v16+ recommended)
 - npm or yarn
-- Git and GitHub account
-- Accounts on deployment platforms (Render/Vercel/Netlify/etc.)
+- MongoDB Atlas account (or local MongoDB)
 
-## Project Ideas
+### 1. Clone the repository
+```sh
+git clone https://github.com/Emmz07/Plp-final-project-RentRoll.git
+cd Plp-final-project-RentRoll
+```
 
-The `Week8-Assignment.md` file includes several project ideas, but you're encouraged to develop your own idea that demonstrates your skills and interests.
+### 2. Setup Environment Variables
+- Copy `.env.example` to `.env` in the `server/` directory and fill in your credentials.
 
-## Submission
+### 3. Install Dependencies
+#### Backend
+```sh
+cd server
+npm install
+```
+#### Frontend
+```sh
+cd ../client
+npm install
+```
 
-Your project will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+### 4. Run the Application
+#### Start Backend
+```sh
+cd server
+npm start
+```
+#### Start Frontend
+```sh
+cd ../client
+npm run dev
+```
 
-1. Commit and push your code regularly
-2. Include comprehensive documentation
-3. Deploy your application and add the live URL to your README.md
-4. Create a video demonstration and include the link in your README.md
+The frontend will run on [http://localhost:5173](http://localhost:5173) and the backend on [http://localhost:5000](http://localhost:5000) by default.
 
-## Resources
+---
 
-- [MongoDB Documentation](https://docs.mongodb.com/)
-- [Express.js Documentation](https://expressjs.com/)
-- [React Documentation](https://react.dev/)
-- [Node.js Documentation](https://nodejs.org/en/docs/)
-- [GitHub Classroom Guide](https://docs.github.com/en/education/manage-coursework-with-github-classroom) 
+## Environment Variables
+Create a `.env` file in the `server/` directory with the following:
+```
+MONGODB_URI=your_mongodb_connection_string
+JWT_SECRET=your_jwt_secret
+PORT=5000
+NODE_ENV=development
+FRONTEND_URL=http://localhost:5173
+```
+
+---
+
+## Scripts
+### Backend
+- `npm start` - Start the Express server
+- `npm run dev` - Start server with nodemon (if configured)
+
+### Frontend
+- `npm run dev` - Start the React development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+
+### Thank You.

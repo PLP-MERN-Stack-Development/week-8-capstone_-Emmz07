@@ -3,7 +3,40 @@
 RentRoll is a full-stack property management application designed to help landlords and property managers efficiently manage properties, tenants, and payments. The project is divided into two main parts: a React-based frontend and a Node.js/Express backend with MongoDB.
 
 
-### Application Link : https://plp-final-project-rent-roll.vercel.app/
+### 🚀 Live Application  
+🔗 [https://plp-final-project-rent-roll.vercel.app/](https://plp-final-project-rent-roll.vercel.app/)
+
+### 🎥 Demo Video  
+📽️ [Watch the 5–10 min walkthrough here](https://your-demo-video-link.com) 
+
+---
+
+## 📸 Screenshots
+
+### 🖼 Dashboard
+
+<img width="1908" height="825" alt="Screenshot 2025-07-20 184848" src="https://github.com/user-attachments/assets/94d30157-b5de-4dae-964c-423521998c9e" />
+
+### 🏘 Property Management
+<p align="center">
+  <img width="1905" height="855" alt="Screenshot 2025-07-21 195527" src="https://github.com/user-attachments/assets/73d28558-6ab0-422d-adff-c43a956e7249" />
+  <img width="1885" height="838" alt="Screenshot 2025-07-21 195549" src="https://github.com/user-attachments/assets/d0a6af44-3cd2-4e7e-a672-98f48fbf5b0c" />
+</p>
+
+### 👥 Tenants Page
+<p align="center">
+  <img width="1896" height="850" alt="Screenshot 2025-07-21 195616" src="https://github.com/user-attachments/assets/edc00ed6-0b4f-4e60-8a5d-6a03dcc7b40e" />
+<img width="1867" height="852" alt="Screenshot 2025-07-21 195638" src="https://github.com/user-attachments/assets/6474fa5c-381c-4b09-a19d-f0bbad23d9ff" />
+</p>
+
+### 💳 Payment Tracking
+<p align="center">
+  <img width="1896" height="852" alt="Screenshot 2025-07-21 195747" src="https://github.com/user-attachments/assets/fa597828-a52e-4d2f-b7ed-c77049659cba" />
+<img width="1890" height="857" alt="Screenshot 2025-07-21 195826" src="https://github.com/user-attachments/assets/22da7df9-cc60-49a6-8d2e-aef8ee7ff123" />
+</p>
+
+---
+
 ---
 
 ## Table of Contents
@@ -96,7 +129,7 @@ cd ../client
 npm run dev
 ```
 
-The frontend will run on [http://localhost:5173](http://localhost:5173) and the backend on [http://localhost:5000](http://localhost:5000) by default.
+The frontend will run on [http://localhost:5173](http://localhost:3000) and the backend on [http://localhost:5000](http://localhost:5000) by default.
 
 ---
 
@@ -121,5 +154,29 @@ FRONTEND_URL=http://localhost:5173
 - `npm run dev` - Start the React development server
 - `npm run build` - Build for production
 - `npm run preview` - Preview production build
+
+
+Frontend: http://localhost:3000
+
+Backend: http://localhost:5000
+
+### Scripts
+## Backend
+npm start - Run production Express server
+
+npm run dev - Run server with Nodemon (dev)
+
+## Frontend
+npm run dev - Start development server
+
+npm run build - Create production build
+
+npm run preview - Preview the production build
+
+ ### License
+This project is open source and available under the MIT License.
+
+### Thank You!
+If you find this project helpful or inspiring, consider giving it a ⭐ on GitHub!
 
 ### Thank You.

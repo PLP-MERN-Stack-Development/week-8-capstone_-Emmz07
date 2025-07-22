@@ -176,10 +176,7 @@ npm run build - Create production build
 
 npm run preview - Preview the production build
 
- ### License
-This project is open source and available under the MIT License.
 
 ### Thank You!
 If you find this project helpful or inspiring, consider giving it a ⭐ on GitHub!
 
-### Thank You.
